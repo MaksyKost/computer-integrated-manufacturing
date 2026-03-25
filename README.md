@@ -28,12 +28,12 @@ computer-integrated-manufacturing/
 │   ├── main.py
 │   └── generator.py
 │
-├── lab2_rpq/                   # 1|r_j, q_j|C_max — Schrage & Carlier
+├── lab2_rpq/
+│   ├── generator.py    # generate_instance
+│   ├── algorithms.py   # schrage_basic + schrage + schrage_pmtn + carlier
+│   ├── utils.py        # Task + calculate_cmax + print_schedule
 │   ├── main.py
-│   ├── schrage.py              # Schrage (linear search + priority queue)
-│   ├── schrage_pmtn.py         # Schrage with preemption
-│   ├── carlier.py              # Carlier's Branch & Bound
-│   └── generator.py
+│   └── test.py
 │
 ├── lab3_flow_shop/             # FP||C_max — Johnson, BF, BnB
 │   ├── main.py
