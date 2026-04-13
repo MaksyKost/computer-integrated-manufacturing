@@ -30,17 +30,16 @@ computer-integrated-manufacturing/
 │
 ├── lab2_rpq/
 │   ├── generator.py    # generate_instance
-│   ├── algorithms.py   # schrage_basic + schrage + schrage_pmtn + carlier
-│   ├── utils.py        # Task + calculate_cmax + print_schedule
+│   ├── algorithms.py   # schrage_basic, schrage, schrage_pmtn, carlier
+│   ├── utils.py        # Task, calculate_cmax, print_schedule
 │   ├── main.py
 │   └── test.py
 │
-├── lab3_flow_shop/             # FP||C_max — Johnson, BF, BnB
+├── lab3_flow_shop/
+│   ├── algorithms.py   # johnson_basic, johnson_extended, brute_force, branch_and_bound
+│   ├── utils.py        # generate_instancen, calculate_cmax, print_schedule
 │   ├── main.py
-│   ├── johnson.py              # Johnson's algorithm (m=2, extension m>2)
-│   ├── brute_force.py          # Brute Force (permutation tree)
-│   ├── branch_and_bound.py     # Branch & Bound with lower bounds (LB0–LB4)
-│   └──  generator.py
+│   └── test.py
 │
 └── README.md
 ```
